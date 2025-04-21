@@ -1,45 +1,40 @@
-# ./
+# Typewriter - A Distraction-Free Writing App
 
-This template should help get you started developing with Vue 3 in Vite.
+Typewriter is a minimal, elegant writing application designed specifically for writers. It provides a clean, distraction-free environment to focus on your writing.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Distraction-Free Writing**: Clean, minimal interface that puts your content first
+- **Markdown Support**: Write in markdown with live preview
+- **Cloud Storage**: Your documents are saved to Firebase for easy access across devices
+- **Full-Screen Mode**: Immerse yourself in your writing with our full-screen mode
+- **Document Management**: Easily create, browse, and manage your documents
+- **Export**: Export your work as markdown files
 
-## Type Support for `.vue` Imports in TS
+## Technology Stack
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- Vue 3 with TypeScript for the frontend
+- Firebase Firestore for document storage
+- Vite for fast development and production builds
 
-## Customize configuration
+## Getting Started
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### Prerequisites
 
-## Project Setup
+- Node.js and pnpm installed
+
+### Installation
 
 ```sh
+# Install dependencies
 pnpm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Start development server
 pnpm dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## Build for Production
 
 ```sh
 pnpm build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-pnpm test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
 ```
