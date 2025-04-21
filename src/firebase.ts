@@ -6,13 +6,13 @@ import { getAuth } from 'firebase/auth'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyDQbUAVL3NWAkwsL9svJ1AHpiJgTokk6Kw',
-  authDomain: 'typewriter-e094b.firebaseapp.com',
-  projectId: 'typewriter-e094b',
-  storageBucket: 'typewriter-e094b.firebasestorage.app',
-  messagingSenderId: '248295082280',
-  appId: '1:248295082280:web:761e402685aafe17d2281d',
-  measurementId: 'G-4LZYLZJ9LP',
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 }
 
 // Initialize Firebase
