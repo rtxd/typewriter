@@ -6,15 +6,19 @@ import Textarea from 'primevue/textarea'
 import PrimeVue from 'primevue/config'
 import Aura from '@primeuix/themes/aura'
 import App from './App.vue'
-import './firebase'
+import router from './router'
 
 const app = createApp(App)
 
-app.use(createPinia()).use(PrimeVue, {
-  theme: {
-    preset: Aura,
-  },
-})
-app.component('p-button', Button)
-app.component('p-textarea', Textarea)
+app
+  .use(createPinia())
+  .use(router)
+  .use(PrimeVue, {
+    theme: {
+      preset: Aura,
+    },
+  })
+  .component('p-button', Button)
+  .component('p-textarea', Textarea)
+
 app.mount('#app')

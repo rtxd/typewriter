@@ -1,13 +1,7 @@
 <template>
-  <header></header>
-
   <main>
-    <typewriter-document />
+    <router-view />
   </main>
 </template>
 
-<script setup lang="ts">
-import TypewriterDocument from './components/typewriter-document.vue'
-</script>
-
-<style scoped></style>
+<script setup lang="ts"></script>
