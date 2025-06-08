@@ -1,4 +1,6 @@
 import './assets/main.css'
+import './assets/typewriter-theme.css'
+import 'primeicons/primeicons.css'
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import Button from 'primevue/button'

@@ -17,6 +17,11 @@ const routes = [
     name: 'register',
     component: () => import('@/views/RegisterView.vue'),
   },
+  {
+    path: 'edit/:docId',
+    name: 'canvas',
+    component: () => import('@/views/CanvasView.vue'),
+  },
 ]
 
 const router = createRouter({
