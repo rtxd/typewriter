@@ -1,0 +1,28 @@
+:root {
+  --primary-color: #e6a157;
+  --primary-color-text: #fff;
+  --surface-ground: #fdf6e3;
+  --surface-card: #f6e9d7;
+  --toolbar-bg: #f5c16c;
+  --text-color: #23222a;
+  --toolbar-height: 56px;
+}
+
+body {
+  background: var(--surface-ground);
+  color: var(--text-color);
+}
+
+.p-button.p-button-primary,
+.p-button.p-button-primary:enabled {
+  background: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  color: var(--primary-color-text) !important;
+}
+
+.p-toolbar {
+  background: var(--toolbar-bg) !important;
+  color: var(--text-color) !important;
+}
+
+/* Add more overrides as needed */
