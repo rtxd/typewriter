@@ -1,6 +1,7 @@
 # Typewriter - A Distraction-Free Writing App
 
-Typewriter is a minimal, elegant writing application designed specifically for writers. It provides a clean, distraction-free environment to focus on your writing.
+Typewriter is a minimal, elegant writing application designed specifically for writers. It provides a clean, distraction-free environment to focus on your writing, with a strong focus on user experince.
+
 
 ## Features
 
